@@ -1,0 +1,17 @@
+/bin/*
+
+# C related
+*.a
+*.d
+*.dll
+*.exe
+*.ilk
+*.lib
+*.o
+*.obj
+*.out
+*.pdb
+*.so
+
+# Visual Studio
+.vs/
