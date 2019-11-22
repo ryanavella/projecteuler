@@ -15,7 +15,7 @@ int main(void) {
     /* The result is most likely 6 digits, so no need
     ** to test all possible products.
     */
-    for (i=316; i<1000; i++) {
+    for (i=100; i<1000; i++) {
         for (j=i; j<1000; j++) {
             prod = i*j;
             tmp = prod;
