@@ -6,7 +6,7 @@ fn main() {
     loop {
         // Every third term is even
         // f(n) = 4*f(n-3) + f(n-6)
-        let a3 = 4*a2 + a1;
+        let a3 = 4 * a2 + a1;
         a1 = a2;
         a2 = a3;
         if a3 > limit {
