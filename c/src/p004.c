@@ -12,9 +12,6 @@ int main(void) {
     unsigned d1, d2, d3, d4, d5, d6;
     uint32_t max_seen = 0;
 
-    /* The result is most likely 6 digits, so no need
-    ** to test all possible products.
-    */
     for (i=100; i<1000; i++) {
         for (j=i; j<1000; j++) {
             prod = i*j;
@@ -35,5 +32,5 @@ int main(void) {
         }
     }
     
-    printf("%d\n", max_seen);
+    printf("%lu\n", (unsigned long)max_seen);
 }
