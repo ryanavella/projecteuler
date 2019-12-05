@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	limit := 4000000
 	a1 := 0
@@ -18,5 +16,5 @@ func main() {
 		}
 		sum += a3
 	}
-	fmt.Println(sum)
+	println(sum)
 }

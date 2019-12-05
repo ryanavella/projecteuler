@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func divOutFactor(x int64, d int64) int64 {
 	for x%d == 0 {
 		x /= d
@@ -40,5 +38,5 @@ func largestPrimeFactor(x int64) int64 {
 
 func main() {
 	p := largestPrimeFactor(600851475143)
-	fmt.Println(p)
+	println(p)
 }
